@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+<div class="for">
+<form action="{{=URL('store')}}" method="post">
+	<div class="ac">
+	<h1><b>Admissions are still open</b></h1>
+	<h4>Please Enter Your Details correctly Below to Register </h4>
+	<div>
+	<div>
+		<label for="firstname" >FIRST NAME</label><br>
+		<input type="text" name="firstname" placeholder="firstname" required>
+	   
+	</div>
+	<div>
+		<label for="lastname">LAST NAME</label><br>
+		<input type="text" name="lastname" placeholder="lastname" required>
+	</div>
+	<div>
+		<label for="email">EMAIL</label><br>
+		<input type="email" name="email" placeholder="email" required>
+	</div>
+	<div>
+		<label for="password">PASSWORD</label><br>
+		<input type="password" name="password" placeholder="password" required>
+	</div>
+	<div>
+		<label for="text">CONTACT</label><br>
+		<input type="text" name="contact" placeholder="phone" required>
+	</div>
+	<div>
+		<label for="text">LOCATION</label><br>
+		<input type="text" name="location" placeholder="where you live" required>
+	</div><br>
+	<div>
+		<input type="submit" value="SAVE">
+	</div>
+	
+</form>
+</div>
+</body>
+</html>

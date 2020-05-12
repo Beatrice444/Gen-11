@@ -1,0 +1,47 @@
+timestamp: 2020-05-10T15:15:15.411000
+CREATE TABLE "users"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "db_firtname" CHAR(512),
+    "db_lastname" CHAR(512),
+    "db_email" CHAR(512),
+    "db_password" CHAR(512)
+);
+success!
+timestamp: 2020-05-12T15:06:04.814000
+ALTER TABLE "users" ADD "db_location" CHAR(512);
+timestamp: 2020-05-12T15:06:04.952000
+ALTER TABLE "users" ADD "db_contact" CHAR(512);
+timestamp: 2020-05-12T15:06:05.059000
+ALTER TABLE "users" ADD "db_firstname" CHAR(512);
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!

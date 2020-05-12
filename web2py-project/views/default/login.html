@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<form action="{{=URL('authenticate')}}" method="post">
+		<div>
+			<label for="email">Email</label><br>
+			<input type="email" placeholder="email" name="email">
+		</div>
+		<div>
+			<label for="password">Password</label><br>
+			<input type="password" placeholder="password" name="password">
+		</div>
+		<div>
+			<input type="submit" value="login">
+		</div>
+	</form>
+
+</body>
+</html>
