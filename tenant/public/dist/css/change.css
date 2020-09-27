@@ -1,0 +1,94 @@
+body {
+    background:black;
+    
+}
+h1 {
+    color:white;
+    text-shadow:0px 0px 10px black;
+    border-bottom:4px solid #ffffff;
+    width:170px;
+    padding-bottom:5px;
+    margin:10px;
+    margin-bottom:20px;
+    position:relative ;
+    left:65px;
+    animation:h1 0.8s;
+    animation-timing-function:;
+}
+div {
+   /* border:1px solid white;*/
+    text-align:center ;
+    position:relative ;
+    top:80px;
+    font-size:20px;
+
+}
+input.email{
+    border-style:none;
+    border-bottom:1px solid #ffffff;
+    background:none;
+    font-size:17px;
+    margin:10px;
+    color:white;
+    outline:none;
+    width:200px;
+    transition:0.2s;
+}
+input.submit{
+    background:none;
+    color:white;
+    border-style:none;
+    border:1px solid white;
+    width:200px;
+    margin-top:15px;
+    transition:0.2s;
+    animation:submit 0.8s;
+    animation-timing-function:;
+    position:relative ;
+    box-shadow:0px 0px 5px black;
+}
+input.email:focus{
+    width:230px;
+    border-color:black;
+}
+input.submit:hover{
+    background-color:black;
+    color:white;
+    outline:none;
+}
+input.submit:active{
+    background-color:black;
+    color:white;
+    outline:none;
+    
+}
+::placeholder{
+    color:lightyellow;
+    opacity:0.3;
+}
+#email{
+    animation:email 0.8s;
+    animation-timing-function:;
+    position:relative ;
+}
+#pass{
+    animation:pass 0.8s;
+    animation-timing-function:;
+    position:relative ;
+}
+@keyframes h1{
+    from{left:500px;}
+    to  {left:65px;}
+}
+@keyframes email{
+    from{right:300px;}
+    to  {right:0px;}
+}
+@keyframes pass{
+    from{left:300px;}
+    to  {left:0px;}
+}
+@keyframes submit{
+    from{right:300px;}
+    to  {right:0px;}
+}

@@ -1,0 +1,29 @@
+html,body{
+	padding:0;
+	margin:0;
+}
+
+.head{
+background-color:black;
+color:white;
+padding:30px;
+position:relative;
+width:100%;
+text-align:center;
+font-size:30px;
+font-weight:bold;
+}
+
+.second{
+    margin-top:10px;
+    border:2px solid green;
+    background-color:#ADD8E6;
+    width:25%;
+    height:70px;
+    font-style:italic;
+    font-weight:bold;
+}
+
+p{
+	margin-top:25px;
+}

@@ -1,0 +1,57 @@
+html,body{
+	padding:0;
+	margin:0;
+}
+
+.head{
+background-color:black;
+color:white;
+padding:30px;
+position:relative;
+width:100%;
+text-align:center;
+font-size:30px;
+font-weight:bold;
+}
+
+.search{
+	float:right;
+	background-color:white;
+}
+
+#searchbox{
+   
+}
+
+#searchbox button{
+	position:fixed;
+    bottom:10px;
+    width:10%;
+    right:10px;
+    height:30px;
+    border:1px solid black;
+    outline:none;
+	display:inline-block;
+    background:black;
+    color:white;
+    margin:0pt;
+    padding:0pt;
+    border-radius:5px;
+    font-size:10pt;
+}
+
+input::placeholder{
+    text-align:center;
+    font-style:italic;  
+}
+
+input{
+	position:fixed;
+    left:10px;
+    bottom:10px;
+    width:85%;
+    height:20px;
+    outline:none;
+    z-index:2;
+    border:1px solid black; 
+}
